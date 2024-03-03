@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/demo_security
+    driver-class-name: org.postgresql.Driver
+    username:
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: false
+    database: postgresql
+demo:
+  security:
+    secret-key: d2d36316b4964455fb9e9cb8ffe1bba614b9471a7714b97517ba6ac29237a213
+
